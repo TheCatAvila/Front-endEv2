@@ -1,6 +1,44 @@
+main, body{
+    margin: 0;
+}
+
 .logo{
     height: 35px;
     padding: 5px;
+    margin-left: 5px;
     border-radius: 5px;
     background-color: rgb(255, 255, 255);
+}
+
+.cartas-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jumbotron{
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+}
+
+.carta{
+    height: 300px;
+    width: 215px;
+}
+
+.carta1{
+    height: 326px;
+    width: 215px;
+}
+
+.info-estudiante{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background-color: rgb(240, 240, 240);
+}
+
+.foot-p{
+    margin-top: 15px;
+    margin-left: 30px;
 }
